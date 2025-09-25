@@ -41,9 +41,15 @@ int main() {
                          << " (" << daftar[i].jumlah << ")\n";
                 }
             }
+        } 
+        else if (pilihan == 3) {
+            cout << "Program selesai. Terima kasih\n";
         }
+        else {
+            cout << ">> Pilihan tidak valid. Silakan coba lagi.\n";
+        }
+
     } while (pilihan != 3);
 
-    cout << "Program selesai. Terima kasih\n";
     return 0;
 }
